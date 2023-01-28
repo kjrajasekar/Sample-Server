@@ -15,7 +15,7 @@ app.get("/", async (req, res) => {
     res.status(201).json({ message: "connected"});
   });
 
-  app.post('/user/signin',check, user.userlogin)
+  app.post('/user/signin', user.userlogin)
 app.post('/user/signup',user.addUser)
 
 
