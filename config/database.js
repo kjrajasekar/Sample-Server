@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongo_uri = "mongodb://localhost:27017/demodb"
+const mongo_uri = "mongodb://127.0.0.1:27017/demodb"
 
 exports.connect = () => {
 
